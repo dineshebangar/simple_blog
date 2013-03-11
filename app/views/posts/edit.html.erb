@@ -1,0 +1,17 @@
+<% @page_title = 'Editing Post' -%>
+
+
+<ul class="nav nav-pills">
+  <li><%= link_to('Back to list', :action => 'list')%></li>
+</ul>
+
+
+
+	<%= form_for(:post, :url =>{:action => 'update', :id => @post }) do |f| %>
+	<%= render(:partial => 'form2', :locals => {:f => f},:id => @post ) %>
+	
+	<%= submit_tag("Update",:class =>'btn btn-info') %> 
+	<%= link_to('Preview Post', {:action => 'show', :id => @post}, :target => "_blank",:class =>'btn btn-info') %>
+<% end -%>
+
+

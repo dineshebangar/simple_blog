@@ -1,0 +1,84 @@
+
+<!-- this is used to embed youtube video in your page for this you need "embed addrss of that"
+<iframe width = "420" height = "500" src="http://www.youtube.com/embed/u5X5cV-4LRo?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>"></iframe>
+
+-->
+
+
+<!--
+	here we created following effects as 
+
+		1)accordian
+		2)draggable
+		3)show
+
+<style>
+	.toggler { width: 500px; height: 200px; }
+	#button { padding: .5em 1em; text-decoration: none; }
+	#effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
+	#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+</style>
+
+<style>
+	#draggable { width: 150px; height: 150px; padding: 0.5em; }
+</style>
+
+<div class="demo">
+<div class="toggler">
+	<div id="effect" >	
+	<div id="resizable">
+		<div id="draggable" class="ui-widget-content">
+			<div id="accordion">
+
+	
+					<h3><a href="#">Username</a></h3>
+					<div>
+						<p>
+					 <%#= text_field_tag('username', params[:username], :id => "uname")%>
+						</p>
+					</div>
+
+					<h3><a href="#">Password</a></h3>
+					<div>
+						<p>
+					 <%#= password_field_tag('password', :id => "password")%>
+					 	</p>
+					 </div>	
+					 					
+			</div>	
+		</div>	
+	</div>
+	</div>		
+</div>
+		
+<select name="effects" id="effectTypes">
+	<option value="blind">Blind</option>
+	<option value="bounce">Bounce</option>
+	<option value="clip">Clip</option>
+	<option value="drop">Drop</option>
+	<option value="explode">Explode</option>
+	<option value="fold">Fold</option>
+	<option value="highlight">Highlight</option>
+	<option value="puff">Puff</option>
+	<option value="pulsate">Pulsate</option>
+	<option value="scale">Scale</option>
+	<option value="shake">Shake</option>
+	<option value="size">Size</option>
+	<option value="slide">Slide</option>
+</select>
+<a href="#" id="button" class="ui-state-default ui-corner-all">Run Effect</a>
+</div>
+
+-->
+
+
+<!-- iSpeech Player Code -->
+<!--
+<script type="text/javascript" src="http://www.ispeech.org/embed/643208/4195896/?style=color&hidden=true&autostart=yes&gradienttopcolor=3E5EB9&gradientbottomcolor=1E4581&textcolor=FFFFFF&highlightcolor=FF8F00"></script><noscript><embed src="http://www.ispeech.org/color-ispeech.swf" quality="high" flashvars="style=color&autostart=yes&playlist=http://www.ispeech.org/downloads/643208/5d7ce86cda454c5563f494d950dc412409/audio.xml" type="application/x-shockwave-flash" width="0" height="0" hidden="true" ><a href="http://www.ispeech.org">Free Text to Speech</a></noscript>
+<!-- End of iSpeech Player Code -->
+<!-- iSpeech Player Code -->
+
+
+
+
+

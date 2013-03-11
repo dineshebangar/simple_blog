@@ -1,0 +1,23 @@
+html { height: 100%; width: 100%; }
+body { width: 980px; font:12px Arial, Helvetica, sans-serif;}
+body table { width: 100%; border-collapse: collapse; }
+table tr td, table tr th { vertical-align: top; }
+th { text-align: left; }
+h1 { text-align: center; font-family: Georgia, Times, serif; font-style:italic;}
+h2 { font-family: Georgia, Times, serif; margin-bottom: 1em; font-style:italic; }
+.row1 { background: #DDDDDD; }
+.row2 { background: #FFFFFF; }
+
+#header { margin: 0; padding: .5em; height: 70px; font-size: 1.2em; 
+	background: #132D89; color: #FFFFFF; clear: both; }
+.notice { height: 2em; color: #F00236; border: 1px solid #F00236; padding: .5em 1em 0 1em; font-weight: bold; }
+#pagecontent { min-height: 400px; }
+#footer { margin: 3em 0 0 0; padding: .5em;height: 50px; text-align: center; 
+	background: #132D89; color: #FFFFFF; clear: both; }
+
+#header h1 { margin: 0; padding: .25em; }
+#pagecontent h1 { color: #132D89; }
+a, a:visited { color: #E61414; }
+a:hover { background: #CCCCCC; }
+
+p {font-style:oblique;font-size: 20px;}

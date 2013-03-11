@@ -1,0 +1,12 @@
+
+
+    <div class="comment-form">
+					
+			<%= form_for(:user, :url =>{:controller => 'users',:action => 'manage'}) do |f| %>
+	        <%= render(:partial => 'users/form', :locals => {:f => f}) %>
+	     <%= submit_tag("manage",:url =>{:controller => 'users', :action => 'manage'},:class => 'btn btn-info' ) %>
+	        <% end %>
+	</div>
+
+	
+

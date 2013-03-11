@@ -1,0 +1,14 @@
+/* This is the stylesheet for the public area 		*/
+/* It is intended to be supplemental to sblog.css 	*/
+
+#left-column { float: left; width: 730px; margin: 2em 1em; }
+#right-column { float: right; width: 180px; margin: 2em 1em; }
+
+.stafflogin.left { float: left; width: 480px; }
+.stafflogin.right { float: right; width: 430px; }
+
+
+#categories, #archive-list { font-size: .8em; color: #004080; }
+#categories h4, #archive-list h4 { margin-bottom: 0; }
+#categories ul, #archive-list ul { margin: .5em 0; padding-left: 0; list-style: none; }
+

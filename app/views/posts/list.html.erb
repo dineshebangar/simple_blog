@@ -1,0 +1,43 @@
+<% @page_title = 'Listing Posts' %>
+
+<ul class="nav nav-pills">
+	<li><%= link_to('Back', :controller => 'staff', :action => 'menu') %></li>
+</ul>
+
+<table class="table table-bordered">
+	<tr>
+		<th>Created</th>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Categories</th>
+		<th>Status</th>
+		<th>Comments</th>
+		<th></th>
+	</tr>
+  
+ <% @posts.each do |post| %>
+	<tr class="<%= cycle('row1', 'row2')%>">
+		<td><%= post.created_at.strftime('%m/%d/%y %I:%m %p') %></td>
+		<td><%= post.title %></td>
+		<td><%= post.author.display_name if post.author %></td>
+		<td><%= post.categories.collect {|cat| cat.name }.join(", ") %>
+		<td><%= post.status %></td>
+		<td><%= post.comments_count %>
+
+		
+		<td><%= link_to("Show", {:action => 'show', :id => post }, :class => 'btn btn-info'  ) %>
+
+		<%= link_to("Edit",{:action => 'edit', :id => post}, :class => 'btn btn-info' ) %>
+
+		<%= link_to("Delete",{ :action => 'delete', :id => post }, :confirm => 'Are you sure you want to permanently remove this post?', :method => :post, :class => 'btn btn-info' ) %></td>
+	</tr>
+<% end %>
+</table>
+
+<%#= link_to 'Previous page', { :controller => :posts, :page => @post_pages.current.previous } if @post_pages.current.previous %>
+<%#= link_to 'Next page', { :page => @post_pages.current.next } if @post_pages.current.next %> 
+
+<%= will_paginate(@posts) %>
+
+<br />
+<%= link_to("New", {:action => 'new'}, :class => 'btn btn-info' ) %>

@@ -1,0 +1,8 @@
+<% for column in Post.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @post.send(column.name) %>
+</p>
+<% end %>
+
+<%= link_to 'Edit', {:action => 'edit', :id => @post},:class => 'btn btn-info' %> |
+<%= link_to 'Back', {:action => 'index'},:class => 'btn btn-info' %>

@@ -1,0 +1,20 @@
+
+<div id="left-column">
+	
+	<div id="posts">
+		
+		<ul>
+	        <%= link_to('Create New Post',{:controller => 'staff', :action => 'login'},:class=> "btn btn-info") %>
+		</ul>
+			
+		       <%= render(:partial => 'post', :collection => @posts) %>  
+		       <%= 'There are no posts that match your selection.' if @posts.empty? %>
+	</div>
+	<%= will_paginate(@posts) %>
+</div>
+
+<div id="right-column">
+	<%= render(:partial => 'custom/right_column') %>	
+</div>
+
+

@@ -1,0 +1,17 @@
+<% @page_title = "Post delete" %>
+
+
+<div class ="post delete">
+	<h2> Delete Record !!! </h2>
+	
+	<%= form_for(:post, :url =>{:action => 'destroy', :id => @post }) do |f| %>
+	
+	<p> are you sure to delete this record ? </p>
+		
+	<div class="row-fluid">	
+        	 <div class="span4">
+			<%= submit_tag("Delete",:class =>'btn btn-info') %> 
+	</div>
+
+<% end %>
+</div>

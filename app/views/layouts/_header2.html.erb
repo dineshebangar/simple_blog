@@ -1,0 +1,37 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <%= link_to "IT ARMS", '#', id: "logo" %>
+      </br>
+          <nav>
+
+
+
+
+          	<div class="row-fluid">	
+        	 <div class="span12 offset4 ">
+            <%= form_for(:user, :url =>{:action => 'send_login'}) do |f| %>
+
+      <span style="color: #39C;">Username:</span>
+      
+     <%= text_field_tag(:username) %>
+    
+     <span style="color: #39C;">Password:</span>
+      <%= password_field_tag(:password) %>
+    
+	
+
+      
+    <%= submit_tag("Log In") %>
+    
+	 </div>
+      </div>
+	
+	<%end %>
+
+
+
+          </nav>
+        </div>
+      </div>
+</header>

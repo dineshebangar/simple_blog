@@ -1,0 +1,34 @@
+<div id="left-column">
+
+<ul class="nav nav-pills">
+	<li><%= link_to("Back to List", {:controller => 'main',:action => "list"},:style => 'font-size: .8em;') %></li>
+</ul>
+	<%= render(:partial => 'main/post', :locals => {:post => @post}) %>
+	
+	<div class="comments">
+		<a name = "comments"></a>
+		<%= render(:partial => 'custom/comment', :collection => @post.approved_comments) %>
+	</div>
+
+     <div class="comment-form">
+		<%# form_for(:action => "add_comment", :id => @post.id) do -%>
+			<%#= render(:partial => 'custom/comment_form') %>
+			<%#= submit_tag("Submit Comment", :style => "margin-left: 105px;") -%>
+			
+			<%= form_for(:comment, :url =>{:controller => 'main', :action => 'add_comment', :id => @post.id }) do  %>
+	       	<%= render(:partial => 'custom/comment_form' ) %>
+			<div class="row-fluid">	
+				 <div class="span4 offset2">
+					<%= submit_tag("Submit",:class =>'btn btn-info') %> 
+				 </div>
+			</div>
+        	<% end %>
+	</div>
+	
+</div>
+
+<div id="right-column">
+	
+	<%= render(:partial => 'custom/right_column') %>	
+	
+</div>

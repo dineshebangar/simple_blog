@@ -1,0 +1,58 @@
+/* This is the stylesheet for the staff area 		*/
+/* It is intended to be supplemental to sblog.css 	*/
+
+
+.left-column { float: left; width: 480px; }
+.right-column { float: right; width: 430px; }
+
+
+.menu { margin-left: 375px; margin-top: 3em; }
+
+.categorylist { width: 200px; height: 380px; 
+	border: 1px solid #000000; }
+.categorylist h2 { font-size: 16px; margin: 0; padding: 6px; 
+	border-bottom: 1px solid #000000; }
+
+.userlist { height: 40em; margin: 0 0 3em 10px; }
+.userlist .listing { border: 1px solid #3D6CBE; height: 40em; }
+.userlist.left { float: left; width: 480px; }
+.userlist.right { float: right; width: 430px; }
+
+.comment { padding: .5em 1em .5em 1em; }
+.comment-lead { font-size: 1em; }
+.comment-text { padding: .5em .5em 1em .5em; }
+
+
+#simple {
+	font-family:Georgia, Times, serif;
+	font-size: 30px;
+}
+
+#div_id { 
+  overflow:auto; 
+  width: 600px; 
+ 
+} 
+
+li {font-size: 15px;font-family:Georgia, Times, serif }
+
+tr{font-size: 12px;}
+
+/*
+#left, #right { 
+  width: 40%; 
+  margin:5px; 
+  padding: 1em; 
+  
+} 
+
+#left-column{ float:left;  }
+#right-column{ float:right; } 
+
+*/
+/*
+.staff{
+  background-image: url("the_fallen_-_wallpaper.jpg");
+ }*/
+
+ 

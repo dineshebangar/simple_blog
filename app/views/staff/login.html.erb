@@ -1,0 +1,31 @@
+
+
+
+<% @page_title = 'Login' -%>
+
+
+<div class="hero-unit">
+	<div class="row-fluid">
+ 	
+		<%= form_for(:staff, :url =>{:action => 'send_login'}) do |f| %>
+
+		
+			<div class="span4 offset4">
+			<p> <b id = "txt1"> Username:</b>  <%= text_field_tag('username', params[:username], :id => "username") %></p>
+
+			<p><b id="txt2">Password:   </b><%= password_field_tag('password', :id=>"password") %></p>
+
+			<%= submit_tag("Log in",:class =>'btn btn-info') %>
+</br>
+		<b>For new User</b>
+      <b>&nbsp;&nbsp;&nbsp;</b><%= link_to("New User", {:controller => 'users', :action =>'new'}) %>
+			</div>
+	</div>			
+
+</div>
+
+
+<% end -%>
+
+
+

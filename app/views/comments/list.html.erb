@@ -1,0 +1,43 @@
+<% @page_title = 'Comment Moderation' %>
+
+<ul class="nav nav-pills">
+	<li><%= link_to("Back", :controller => 'staff', :action => 'menu') %></li>
+</ul>
+
+
+
+<p>Show:
+	<%= link_to_unless_current('all', :status => 'all') %>&nbsp;|
+	<%= link_to_unless_current('new', :status => nil) %>&nbsp;|
+	<%= link_to_unless_current('approved', :status => 'approved') %>&nbsp;|
+	<%= link_to_unless_current('spam', :status => 'spam') %>
+</p>
+
+ <%= form_for(:comment, :url =>{:action => 'set_status'}) do  %>
+	<table class="table table-bordered">
+		<tr>
+			<th>&nbsp;</th>
+			<th>Comment</th>
+			<th>Status</th>
+			<th>Created</th>
+		
+		</tr>
+	<% for comment in @comments %>
+		<tr class="<%= cycle('row1', 'row2') %>">
+			<td><%= check_box_tag('commentlist[]', comment.id) %>&nbsp;</td>
+			<td>
+				<div class="comment">
+				<div class="comment-lead">On post <em><%= comment.post.title %></em> <%= mail_to(h(comment.author_email), h(comment.author)) %> wrote:</div>
+				<div class="comment-text">
+					<%= truncate(h(comment.content)) %>
+					<%= link_to('view all', :action => 'show', :id => comment) if h(comment.content).length > 90 %>
+				</div>
+				</div>
+			</td>
+			<td><%= h(comment.status) %></td>
+			<td><%= comment.created_at.strftime('%m/%d/%y %I:%m %p') %></td>
+		</tr>
+	<% end %>
+	</table>
+	<p>Mark Checked Items As: <%= submit_tag("Approved", :class=>"btn btn-info") %> <%= submit_tag("Spam", :class=>"btn btn-warning") %></p>
+<% end -%>

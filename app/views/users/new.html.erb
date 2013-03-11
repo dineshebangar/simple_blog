@@ -1,0 +1,15 @@
+<h1>New User</h1>
+<div class ="span9 offset2">
+
+
+<%= form_for(:user, :url =>{:action => 'create'}) do |f| %>
+<%#= form_tag :action => 'create' do %>
+  <%= render(:partial => 'newform') %>
+  <div class="row-fluid">	
+        	 <div class="span4 offset5">
+				<%= submit_tag("Create",:class =>'btn btn-info') %> 
+			 </div>
+  </div>
+<% end %>
+ </div>
+

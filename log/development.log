@@ -1,0 +1,619 @@
+
+
+Started GET "/assets/jquery-rails.js" for 127.0.0.1 at 2012-12-12 12:04:30 -0800
+Served asset /jquery-rails.js - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-rails.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery-1.8.0.min.js?body=1" for 127.0.0.1 at 2012-12-12 12:04:31 -0800
+Served asset /jquery-1.8.0.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.min.js?body=1" for 127.0.0.1 at 2012-12-12 12:04:31 -0800
+Served asset /jquery-ui-1.8.23.custom.min.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-12 12:04:31 -0800
+Served asset /bootstrap.min.js - 304 Not Modified (46ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-12 12:04:31 -0800
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sblog.css?body=1" for 127.0.0.1 at 2012-12-12 12:04:32 -0800
+Served asset /sblog.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/staff.js?body=1" for 127.0.0.1 at 2012-12-12 12:04:32 -0800
+Served asset /staff.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.css" for 127.0.0.1 at 2012-12-12 12:04:32 -0800
+Served asset /jquery-ui-1.8.23.custom.css - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-ui-1.8.23.custom.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-12 12:04:32 -0800
+Served asset /bootstrap.min.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-12 12:04:32 -0800
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-12 12:04:33 -0800
+Served asset /bootstrap-responsive.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-12 12:04:33 -0800
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-12 12:08:19 -0800
+Connecting to database specified by database.yml
+Processing by MainController#list as HTML
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT `categories`.* FROM `categories` ORDER BY name ASC[0m
+  [1m[35mPost Load (0.0ms)[0m  SELECT `blog_posts`.* FROM `blog_posts` 
+  [1m[36mComment Load (0.0ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`post_id` = 3 ORDER BY created_at ASC[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mPost Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM `blog_posts` WHERE (`blog_posts`.`title` = BINARY ' Button group' AND `blog_posts`.`id` != 3) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT 1 AS one FROM `blog_posts` WHERE (`blog_posts`.`title` = BINARY ' Button group' AND `blog_posts`.`id` != 3) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mComment Load (0.0ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`post_id` = 4 ORDER BY created_at ASC
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Exists (15.6ms)[0m  SELECT 1 AS one FROM `blog_posts` WHERE (`blog_posts`.`title` = BINARY '3-Mile-Wide Asteroid To Pass Close To Earth ' AND `blog_posts`.`id` != 4) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM `blog_posts` WHERE (`blog_posts`.`title` = BINARY '3-Mile-Wide Asteroid To Pass Close To Earth ' AND `blog_posts`.`id` != 4) LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT `blog_posts`.* FROM `blog_posts` WHERE (status = 'published') ORDER BY created_at DESC[0m
+  [1m[35mPost Load (0.0ms)[0m  SELECT `blog_posts`.* FROM `blog_posts` WHERE (status = 'published') ORDER BY blog_posts.created_at DESC LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IN (1)[0m
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:Categorization> at D:/shrikant/simple_blog/app/models/categorization.rb:3)
+  [1m[35mCategorization Load (0.0ms)[0m  SELECT `categories_posts`.* FROM `categories_posts` WHERE `categories_posts`.`post_id` IN (4, 3)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` IN (4, 1)[0m
+  [1m[35mEXPLAIN (0.0ms)[0m  EXPLAIN SELECT `blog_posts`.* FROM `blog_posts` WHERE (status = 'published') ORDER BY blog_posts.created_at DESC LIMIT 5 OFFSET 0
+  [1m[36mEXPLAIN (0.0ms)[0m  [1mEXPLAIN SELECT `users`.* FROM `users` WHERE `users`.`id` IN (1)[0m
+  [1m[35mEXPLAIN (0.0ms)[0m  EXPLAIN SELECT `categories_posts`.* FROM `categories_posts` WHERE `categories_posts`.`post_id` IN (4, 3)
+  [1m[36mEXPLAIN (0.0ms)[0m  [1mEXPLAIN SELECT `categories`.* FROM `categories` WHERE `categories`.`id` IN (4, 1)[0m
+EXPLAIN for: SELECT  `blog_posts`.* FROM `blog_posts`  WHERE (status = 'published') ORDER BY blog_posts.created_at DESC LIMIT 5 OFFSET 0
++----+-------------+------------+------+---------------+------+---------+------+------+-----------------------------+
+| id | select_type | table      | type | possible_keys | key  | key_len | ref  | rows | Extra                       |
++----+-------------+------------+------+---------------+------+---------+------+------+-----------------------------+
+|  1 | SIMPLE      | blog_posts | ALL  | NULL          | NULL | NULL    | NULL |    2 | Using where; Using filesort |
++----+-------------+------------+------+---------------+------+---------+------+------+-----------------------------+
+1 row in set (0.00 sec)
+
+EXPLAIN for: SELECT `users`.* FROM `users`  WHERE `users`.`id` IN (1)
++----+-------------+-------+-------+---------------+---------+---------+-------+------+-------+
+| id | select_type | table | type  | possible_keys | key     | key_len | ref   | rows | Extra |
++----+-------------+-------+-------+---------------+---------+---------+-------+------+-------+
+|  1 | SIMPLE      | users | const | PRIMARY       | PRIMARY | 4       | const |    1 |       |
++----+-------------+-------+-------+---------------+---------+---------+-------+------+-------+
+1 row in set (0.02 sec)
+
+EXPLAIN for: SELECT `categories_posts`.* FROM `categories_posts`  WHERE `categories_posts`.`post_id` IN (4, 3)
++----+-------------+------------------+------+-----------------------------------+------+---------+------+------+-------------+
+| id | select_type | table            | type | possible_keys                     | key  | key_len | ref  | rows | Extra       |
++----+-------------+------------------+------+-----------------------------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | categories_posts | ALL  | index_categories_posts_on_post_id | NULL | NULL    | NULL |    4 | Using where |
++----+-------------+------------------+------+-----------------------------------+------+---------+------+------+-------------+
+1 row in set (0.05 sec)
+
+EXPLAIN for: SELECT `categories`.* FROM `categories`  WHERE `categories`.`id` IN (4, 1)
++----+-------------+------------+-------+---------------+---------+---------+------+------+-------------+
+| id | select_type | table      | type  | possible_keys | key     | key_len | ref  | rows | Extra       |
++----+-------------+------------+-------+---------------+---------+---------+------+------+-------------+
+|  1 | SIMPLE      | categories | range | PRIMARY       | PRIMARY | 4       | NULL |    2 | Using where |
++----+-------------+------------+-------+---------------+---------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  Rendered custom/_error_messages.html.erb (0.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM `comments` WHERE `comments`.`post_id` = 4 AND (comments.status = 'approved')
+  Rendered custom/_error_messages.html.erb (0.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM `comments` WHERE `comments`.`post_id` = 3 AND (comments.status = 'approved')[0m
+  Rendered main/_post.html.erb (484.4ms)
+  Rendered custom/_categories.html.erb (0.0ms)
+  Rendered custom/_archive_list.html.erb (0.0ms)
+  Rendered custom/_right_column.html.erb (78.1ms)
+  Rendered main/list.html.erb within layouts/staff (2562.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_flash_messages.html.erb (0.0ms)
+Completed 200 OK in 6891ms (Views: 4906.2ms | ActiveRecord: 109.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-12 12:08:39 -0800
+Processing by MainController#list as HTML
+  [1m[35mCategory Load (0.0ms)[0m  SELECT `categories`.* FROM `categories` ORDER BY name ASC
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT `blog_posts`.* FROM `blog_posts` WHERE (status = 'published') ORDER BY created_at DESC[0m
+  [1m[35mPost Load (0.0ms)[0m  SELECT `blog_posts`.* FROM `blog_posts` WHERE (status = 'published') ORDER BY blog_posts.created_at DESC LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` IN (1)[0m
+  [1m[35mCategorization Load (0.0ms)[0m  SELECT `categories_posts`.* FROM `categories_posts` WHERE `categories_posts`.`post_id` IN (4, 3)
+  [1m[36mCategory Load (15.6ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` IN (4, 1)[0m
+  Rendered custom/_error_messages.html.erb (0.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM `comments` WHERE `comments`.`post_id` = 4 AND (comments.status = 'approved')
+  Rendered custom/_error_messages.html.erb (0.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM `comments` WHERE `comments`.`post_id` = 3 AND (comments.status = 'approved')[0m
+  Rendered main/_post.html.erb (78.1ms)
+  Rendered custom/_categories.html.erb (0.0ms)
+  Rendered custom/_archive_list.html.erb (0.0ms)
+  Rendered custom/_right_column.html.erb (15.6ms)
+  Rendered main/list.html.erb within layouts/staff (140.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_flash_messages.html.erb (15.6ms)
+Completed 200 OK in 406ms (Views: 296.9ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/assets/jquery-1.8.0.min.js?body=1" for 127.0.0.1 at 2012-12-12 12:08:40 -0800
+Served asset /jquery-1.8.0.min.js - 200 OK (125ms)
+
+
+Started GET "/assets/jquery-rails.js" for 127.0.0.1 at 2012-12-12 12:08:40 -0800
+Served asset /jquery-rails.js - 404 Not Found (93ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-rails.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.min.js?body=1" for 127.0.0.1 at 2012-12-12 12:08:40 -0800
+Served asset /jquery-ui-1.8.23.custom.min.js - 200 OK (250ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-12 12:08:41 -0800
+Served asset /bootstrap.min.js - 200 OK (15ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-12 12:08:41 -0800
+Served asset /bootstrap.js - 200 OK (62ms)
+
+
+Started GET "/assets/staff.js?body=1" for 127.0.0.1 at 2012-12-12 12:08:41 -0800
+Served asset /staff.js - 200 OK (62ms)
+
+
+Started GET "/assets/sblog.css?body=1" for 127.0.0.1 at 2012-12-12 12:08:41 -0800
+Served asset /sblog.css - 200 OK (31ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.css" for 127.0.0.1 at 2012-12-12 12:08:42 -0800
+Served asset /jquery-ui-1.8.23.custom.css - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-ui-1.8.23.custom.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-12 12:08:42 -0800
+Served asset /bootstrap.min.css - 200 OK (109ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-12 12:08:42 -0800
+Served asset /bootstrap.css - 200 OK (187ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-12 12:08:42 -0800
+Served asset /bootstrap-responsive.css - 200 OK (109ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-12 12:08:43 -0800
+Served asset /bootstrap-responsive.min.css - 200 OK (78ms)
+
+
+Started GET "/staff/login" for 127.0.0.1 at 2012-12-12 12:08:45 -0800
+Processing by StaffController#login as HTML
+  Rendered staff/login.html.erb within layouts/staff (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_flash_messages.html.erb (0.0ms)
+Completed 200 OK in 203ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.css" for 127.0.0.1 at 2012-12-12 12:08:45 -0800
+Served asset /jquery-ui-1.8.23.custom.css - 404 Not Found (93ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-ui-1.8.23.custom.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery-rails.js" for 127.0.0.1 at 2012-12-12 12:08:46 -0800
+Served asset /jquery-rails.js - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-rails.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/staff/send_login" for 127.0.0.1 at 2012-12-12 12:09:04 -0800
+Processing by StaffController#send_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ms26LcB1NobItrR/TxlAWApILC4gcvVkZxj54ks2f1s=", "username"=>"iscubeonror", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE (username = 'iscubeonror') LIMIT 1
+  Rendered staff/logo.html.erb within layouts/staff (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_flash_messages.html.erb (0.0ms)
+Completed 200 OK in 250ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-rails.js" for 127.0.0.1 at 2012-12-12 12:09:04 -0800
+Served asset /jquery-rails.js - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-rails.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.css" for 127.0.0.1 at 2012-12-12 12:09:05 -0800
+Served asset /jquery-ui-1.8.23.custom.css - 404 Not Found (78ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-ui-1.8.23.custom.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/staff/logout" for 127.0.0.1 at 2012-12-12 12:09:13 -0800
+Processing by StaffController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-12 12:09:13 -0800
+Processing by MainController#list as HTML
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT `categories`.* FROM `categories` ORDER BY name ASC[0m
+  [1m[35mPost Load (0.0ms)[0m  SELECT `blog_posts`.* FROM `blog_posts` WHERE (status = 'published') ORDER BY created_at DESC
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT `blog_posts`.* FROM `blog_posts` WHERE (status = 'published') ORDER BY blog_posts.created_at DESC LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (15.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` IN (1)
+  [1m[36mCategorization Load (0.0ms)[0m  [1mSELECT `categories_posts`.* FROM `categories_posts` WHERE `categories_posts`.`post_id` IN (4, 3)[0m
+  [1m[35mCategory Load (0.0ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` IN (4, 1)
+  Rendered custom/_error_messages.html.erb (0.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM `comments` WHERE `comments`.`post_id` = 4 AND (comments.status = 'approved')[0m
+  Rendered custom/_error_messages.html.erb (0.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM `comments` WHERE `comments`.`post_id` = 3 AND (comments.status = 'approved')
+  Rendered main/_post.html.erb (78.1ms)
+  Rendered custom/_categories.html.erb (0.0ms)
+  Rendered custom/_archive_list.html.erb (0.0ms)
+  Rendered custom/_right_column.html.erb (15.6ms)
+  Rendered main/list.html.erb within layouts/staff (140.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_flash_messages.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 312.5ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/assets/jquery-rails.js" for 127.0.0.1 at 2012-12-12 12:09:14 -0800
+Served asset /jquery-rails.js - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-rails.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.css" for 127.0.0.1 at 2012-12-12 12:09:14 -0800
+Served asset /jquery-ui-1.8.23.custom.css - 404 Not Found (312ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-ui-1.8.23.custom.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/staff/login" for 127.0.0.1 at 2012-12-12 12:09:16 -0800
+Processing by StaffController#login as HTML
+  Rendered staff/login.html.erb within layouts/staff (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_flash_messages.html.erb (0.0ms)
+Completed 200 OK in 188ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-rails.js" for 127.0.0.1 at 2012-12-12 12:09:17 -0800
+Served asset /jquery-rails.js - 404 Not Found (78ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-rails.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.css" for 127.0.0.1 at 2012-12-12 12:09:17 -0800
+Served asset /jquery-ui-1.8.23.custom.css - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-ui-1.8.23.custom.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started POST "/staff/send_login" for 127.0.0.1 at 2012-12-12 12:09:25 -0800
+Processing by StaffController#send_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ms26LcB1NobItrR/TxlAWApILC4gcvVkZxj54ks2f1s=", "username"=>"shrikant", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (username = 'shrikant') LIMIT 1[0m
+  Rendered staff/imp.html.erb within layouts/staff (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_flash_messages.html.erb (0.0ms)
+Completed 200 OK in 266ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-rails.js" for 127.0.0.1 at 2012-12-12 12:09:26 -0800
+Served asset /jquery-rails.js - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-rails.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.23.custom.css" for 127.0.0.1 at 2012-12-12 12:09:26 -0800
+Served asset /jquery-ui-1.8.23.custom.css - 404 Not Found (296ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/jquery-ui-1.8.23.custom.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)

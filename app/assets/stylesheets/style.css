@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.notice { width: 400px;height: 1.25em; padding: 1em; text-align: center; 
+  background: #ffffff; color: #F7081c;  }
+
+/* Errors */
+.fieldWithErrors { display: table; padding: 2px; background-color: #AA0000; }
+#errorExplanation { width: 400px; padding: 10; margin: 0 auto 1.5em; 
+  border: 1px solid #aba9a9; background-color: #ffffff; font-size: 12px; }
+#errorExplanation h2 { font-weight: bold; font-size: 12px;
+  padding: 15px 5px 5px 15px; margin: 0; width: 380px;
+  background-color: #aba9a9; color: #FFFFFF; }
+#errorExplanation p { color: #333333; margin: 0; padding: 3px 0.5em; }
+#errorExplanation ul { margin-top: 0; }
+#errorExplanation ul li { list-style: square; }
+
+

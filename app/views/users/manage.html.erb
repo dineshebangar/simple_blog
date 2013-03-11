@@ -1,0 +1,38 @@
+<% @page_title = 'Current Users' -%>
+
+<ul class="nav nav-pills">
+	<li><%= content_tag('p', link_to("Back", :controller => 'staff', :action => 'menu')) %></li>
+</ul>
+
+
+
+
+<div class="userlist left">
+	<%= render(:partial => 'listing') %>
+</div>
+<div class="userlist right">
+	<% if params[:id].blank? -%>
+		<h1>New user</h1>
+
+		<%= form_for(:user, :url =>{:action => 'manage'}) do |f| %>
+		  <%= render :partial => 'form' %>
+		  <%= submit_tag("Create", :style => 'margin: 1em 0 1em 180px;',:class =>'btn btn-info') %>
+		<% end %>
+	<% else -%>
+		<h1>Editing user</h1>
+
+		<%= form_for(:user, :url =>{:action => 'manage', :id => @user}) do |f| %>
+		  <%= render :partial => 'form' %>
+		  <%= submit_tag("Edit", :style => 'margin: 1em 0 1em 180px;',:class =>'btn btn-info') %>
+		<% end %>
+
+		<%= form_for(:user, :url =>{:action => 'manage', :id => @user}) do  %>
+		  <%= submit_tag("Destory",:class =>'btn btn-info') %>
+		<% end %>
+
+	<% end -%>
+	<br />
+	<%= link_to('Cancel', :action => 'list') %>
+</div>
+
+

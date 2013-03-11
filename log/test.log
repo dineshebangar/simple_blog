@@ -1,0 +1,36 @@
+Connecting to database specified by database.yml
+  [1m[36m (78.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (171.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreatePosts (20120809055418)
+  [1m[35m (62.5ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(80), `body` text, `author` varchar(50), `category` varchar(50), `status` varchar(50), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120809055418')[0m
+Migrating to CreateUsers (20120809062647)
+  [1m[35m (78.1ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(25), `hashed_password` varchar(25), `first_name` varchar(25), `last_name` varchar(25), `email` varchar(25), `display_name` varchar(25), `user_level` mediumint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120809062647')[0m
+Migrating to CreateComments (20120809062733)
+  [1m[35m (62.5ms)[0m  CREATE TABLE `comments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `post_id` int(11), `author` varchar(50), `author_email` varchar(50), `content` text, `status` varchar(50), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (140.6ms)[0m  [1mCREATE INDEX `index_comments_on_post_id` ON `comments` (`post_id`)[0m
+  [1m[35m (15.6ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120809062733')
+Migrating to AlterPosts (20120809075128)
+  [1m[36m (31.2ms)[0m  [1mRENAME TABLE `posts` TO `blog_posts`[0m
+  [1m[35m (15.6ms)[0m  SHOW COLUMNS FROM `blog_posts` LIKE 'body'
+  [1m[36m (156.2ms)[0m  [1mALTER TABLE `blog_posts` CHANGE `body` `content` text DEFAULT NULL[0m
+  [1m[35m (140.6ms)[0m  ALTER TABLE `blog_posts` CHANGE `author` `author` int(11) DEFAULT 0 NOT NULL
+  [1m[36m (15.6ms)[0m  [1mSHOW COLUMNS FROM `blog_posts` LIKE 'author'[0m
+  [1m[35m (140.6ms)[0m  ALTER TABLE `blog_posts` CHANGE `author` `author_id` int(11) DEFAULT 0 NOT NULL
+  [1m[36m (125.0ms)[0m  [1mCREATE INDEX `index_blog_posts_on_author_id` ON `blog_posts` (`author_id`)[0m
+  [1m[35m (15.6ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120809075128')
+Migrating to CreateCategories (20120809104135)
+  [1m[36m (78.1ms)[0m  [1mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(50), `short_name` varchar(20), `description` varchar(100), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (31.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120809104135')
+Migrating to CategoriesPosts (20120809105902)
+  [1m[36m (62.5ms)[0m  [1mCREATE TABLE `categories_posts` (`catagory_id` int(11), `post_id` int(11)) ENGINE=InnoDB[0m
+  [1m[35m (156.2ms)[0m  CREATE INDEX `index_categories_posts_on_catagory_id` ON `categories_posts` (`catagory_id`)
+  [1m[36m (171.9ms)[0m  [1mCREATE INDEX `index_categories_posts_on_post_id` ON `categories_posts` (`post_id`)[0m
+  [1m[35m (171.9ms)[0m  ALTER TABLE `blog_posts` DROP `category`
+  [1m[36m (31.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120809105902')[0m
+Migrating to ChangeCategoriesToRichJoin (20120809115747)
+  [1m[35m (171.9ms)[0m  ALTER TABLE `categories_posts` ADD `id` int(11) DEFAULT NULL auto_increment PRIMARY KEY
+  [1m[36m (15.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120809115747')[0m
+  [1m[35m (15.6ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 

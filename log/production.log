@@ -1,0 +1,15 @@
+Connecting to database specified by database.yml
+Migrating to CreatePosts (20120809055418)
+Migrating to CreateUsers (20120809062647)
+Migrating to CreateComments (20120809062733)
+Migrating to AlterPosts (20120809075128)
+Migrating to CreateCategories (20120809104135)
+Migrating to CategoriesPosts (20120809105902)
+Connecting to database specified by database.yml
+Migrating to CreatePosts (20120809055418)
+Migrating to CreateUsers (20120809062647)
+Migrating to CreateComments (20120809062733)
+Migrating to AlterPosts (20120809075128)
+Migrating to CreateCategories (20120809104135)
+Migrating to CategoriesPosts (20120809105902)
+Migrating to ChangeCategoriesToRichJoin (20120809115747)

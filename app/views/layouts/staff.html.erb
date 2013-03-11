@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+			 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>ISCube Blog <%= @page_title %></title>
+		<meta name="author" content="iscube.com/Shrikant Khandare." />
+		<meta name="copyright" content="Copyright 2012, iscube" />
+		<meta name="version" content="1.0" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		
+		
+		<%= javascript_include_tag "jquery-rails.js"%>
+		<%= javascript_include_tag "jquery-1.8.0.min"%>
+		<%= javascript_include_tag "jquery-ui-1.8.23.custom.min"%>
+		<%= javascript_include_tag "bootstrap.min"%>
+		<%= javascript_include_tag "bootstrap"%>
+		<%= javascript_include_tag "staff"%>
+		<%= stylesheet_link_tag('sblog','jquery-ui-1.8.23.custom.css','bootstrap.min','bootstrap','bootstrap-responsive','bootstrap-responsive.min', :media => "all") %>
+		
+		
+	</head>
+	<body class="staff">
+	<div id="topbar">
+	
+	<%= render 'layouts/header' %>
+	 <%= render 'layouts/flash_messages' %>
+					
+	</div>
+		</br></br></br>
+			<h1><%= @page_title %></h1>
+			
+				<% if !flash[:notice].blank? %>
+				<div class="notice">
+				 <%= flash[:notice]%>	
+				</div>	
+				<% end %>
+					
+					<%= yield %>
+		
+		
+	</body>
+</html>

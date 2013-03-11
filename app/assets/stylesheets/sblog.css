@@ -1,0 +1,88 @@
+
+h1 { text-align: center; }
+
+#left-column { float: left; width: 730px; margin: 2em 1em; }
+#right-column { float: right; width: 180px; margin: 2em 1em; }
+
+.stafflogin.left { float: left; width: 480px; }
+.stafflogin.right { float: right; width: 430px; }
+
+#main_post{
+	
+}
+
+.post, .comment,.comment { margin: 1em; padding-bottom: 1em; 
+	border-bottom: 1px dashed #004080;   }
+
+
+.post .title { font-size: 1.2em; font-weight: bold; }
+.post .author { font-size: .8em; }
+.post .date { font-size: .8em; }
+.post .body { margin: 1em 0; }
+.post .categories { font-size: .8em; }
+.post .comment-summary { font-size: .8em; }
+
+.comment .comment-lead { font-size: .8em; }
+.comment .comment-text { margin-top: 1em; margin-left: 1em;}
+.comment-form { margin: 1em; }
+
+.about { font-size: .8em; color: #004080; padding-top: 1em; }
+
+
+#categories, #archive-list { font-size: .8em; color: #004080; }
+#categories h4, #archive-list h4 { margin-bottom: 0; }
+#categories ul, #archive-list ul { margin: .5em 0; padding-left: 0; list-style: none; }
+
+
+.left-column { float: left; width: 480px; }
+.right-column { float: right; width: 430px; }
+
+
+.menu { margin-left: 375px; margin-top: 3em; }
+
+.categorylist { width: 200px; height: 380px; 
+	border: 1px solid #000000; }
+.categorylist h2 { font-size: 16px; margin: 0; padding: 6px; 
+	border-bottom: 1px solid #000000; }
+
+.userlist { height: 40em; margin: 0 0 3em 10px; }
+.userlist .listing { border: 1px solid #3D6CBE; height: 40em; }
+.userlist.left { float: left; width: 480px; }
+.userlist.right { float: right; width: 430px; }
+
+.comment { padding: .5em 1em .5em 1em; }
+.comment-lead { font-size: 1em; }
+.comment-text { padding: .5em .5em 1em .5em; }
+
+
+#simple {
+	font-family:Georgia, Times, serif;
+	font-size: 30px;
+}
+
+#div_id { 
+  overflow:auto; 
+  width: 600px; 
+ 
+} 
+
+li {font-size: 15px;font-family:Georgia, Times, serif }
+
+tr{font-size: 12px;}
+
+
+.notice { width: 400px;height: 1.25em; padding: 1em; text-align: center; 
+  background: #ffffff; color: #F7081c;  }
+
+/* Errors */
+.fieldWithErrors { display: table; padding: 2px; background-color: #AA0000; }
+#errorExplanation { width: 400px; padding: 10; margin: 0 auto 1.5em; 
+  border: 1px solid #aba9a9; background-color: #ffffff; font-size: 12px; }
+#errorExplanation h2 { font-weight: bold; font-size: 12px;
+  padding: 15px 5px 5px 15px; margin: 0; width: 380px;
+  background-color: #aba9a9; color: #FFFFFF; }
+#errorExplanation p { color: #333333; margin: 0; padding: 3px 0.5em; }
+#errorExplanation ul { margin-top: 0; }
+#errorExplanation ul li { list-style: square; }
+
+
