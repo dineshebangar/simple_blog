@@ -6,8 +6,8 @@ gem 'rails', '3.2.6'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'mysql2'
-gem 'pg' 
-gem 'thin'
+#gem 'pg' 
+#gem 'thin'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -23,6 +23,13 @@ end
 
 gem 'jquery-rails'
 gem 'will_paginate', '3.0.3'
+
+platform :ruby do
+  gem 'pg'
+  gem 'sqlite3'
+  gem 'mysql2'
+  gem 'unicorn'
+end
 
 #gem "warbler"
 
