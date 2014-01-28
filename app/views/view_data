@@ -9,6 +9,8 @@
   
   in group model
   
+   accepts_nested_attributes_for :products
+  
    def self.groups_breadcrumb
     arr = []
     all_groups = self.all(:order => 'ancestry')
