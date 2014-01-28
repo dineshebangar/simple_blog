@@ -1,0 +1,26 @@
+ = f.input :groups, :as => :check_boxes, :collection => Group.groups_breadcrumb, :label => "Categories", :required => true
+ 
+ in model
+ 
+  def product_access_level_collection
+    return {"Site Admin Only" => "1", "Requires Login" => "2", "For General Public" => "3"}
+  end
+  
+  
+  in group model
+  
+   def self.groups_breadcrumb
+    arr = []
+    all_groups = self.all(:order => 'ancestry')
+
+    all_groups.each do |g|
+      label = []
+      Group.ancestors_of(g).each do |ancestor|
+        label << ancestor.name.gsub("®".force_encoding('utf-8'),"<sup>®</sup>").gsub('&reg;',"<sup>®</sup>").gsub("&REG;","<sup>®</sup>").gsub('&reg',"&amp;reg").gsub('&REG',"&amp;REG").html_safe
+      end
+      label << g.name.gsub("®".force_encoding('utf-8'),"<sup>®</sup>").gsub('&reg;',"<sup>®</sup>").gsub("&REG;","<sup>®</sup>").gsub('&reg',"&amp;reg").gsub('&REG',"&amp;REG").html_safe
+      arr << [label.join(" > ").html_safe,g.id]
+    end
+
+    return arr
+  end
