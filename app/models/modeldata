@@ -1,0 +1,27 @@
+before_save :remove_starting_slash
+validate :check_document_path
+
+def remove_starting_slash
+    link=self.link.split("")
+    link=self.remove_slash(link) 
+    self.link=link.join("")
+  end
+
+  def remove_slash(link)
+      until link[0]!="/" do
+         link.delete_at(0)
+      end
+      link
+  end  
+  
+  def check_document_path
+      #self.remove_starting_slash
+    if is_doctype_windows?
+      return document_exists_on_win_ftp
+    elsif File.file?("#{app_config[:ftp_root]}/#{self.product.folder_path}/#{self.link}")
+      return true
+    else
+      self.errors.add(:link ,"Document doesn't exist on FTP")
+      return false
+    end
+  end
